@@ -25,6 +25,7 @@ class exception {
 private:
     os what_happened;
 private:
+    //
     struct cleaner {
         explicit cleaner( os& what_happened_ ) : what_happened( what_happened_ ) {}
         ~cleaner() {
